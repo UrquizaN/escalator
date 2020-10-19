@@ -44,8 +44,9 @@
     box-shadow: -9px 10px 31px 0px rgba(0,0,0,0.75);
 }
 
-main, footer {
-    padding: 42px 98px;
+
+main {
+    padding: 42px 98px 110px 98px;
     background-color: #FFF;
 }
 
@@ -84,6 +85,8 @@ main, footer {
 }
 
 footer {
+    padding: 42px 98px;
+
     background-color: #f0f0f5;
 }
 
@@ -104,14 +107,14 @@ footer {
 }
 
 .titleGraph {
-    background-color: #001d9c;
+    background-color: #205cca;
     padding: 12px;
 }
 
 .dataGraph{
     padding: 12px;
     display: flex;
-    background-color: #008cff;
+    background-color: #2890e6;
     align-items: flex-end;
     justify-content: center;
 }
@@ -119,6 +122,5 @@ footer {
 .graph > p{
     display: flex;
     justify-content: center;
-    background-color: #008cff;
     padding: 12px;
 }
